@@ -1,0 +1,276 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Alegreya", serif;
+}
+.Home{
+    background-image: url("../images/drew-coffman-1872.jpg");
+    height: 100vh;
+    background-size: 100% 100%;
+    overflow: auto;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.nav-img{
+    width: 15%;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.nav-img img{
+    width: 100%;
+}
+.nav-li {
+    display: inline-block;
+    vertical-align: top; 
+    padding-left: 550px;
+}
+.nav-li ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.nav-li ul li{
+    display: inline-block;
+    padding: 15px;
+}
+.nav-li ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.button {
+    background-color: #8e7754;
+    border: none;
+    color: white;
+    padding:  17px 30px ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  .home-txt{
+    color: white;
+    text-align: center;
+    padding: 60px 0px;
+    margin: 80px 400px ;
+  }
+  .Welcome{
+    padding: 0px 0px 5px;
+    font-size: 22px;
+  }
+  .Family{
+    padding: 0px 0px 18px;
+    font-size: 60px;
+  }
+  .prag{
+    padding: 10px 0px 20px;
+    font-size: 22px;
+  }
+
+  .wwa{
+    width: 80%;
+    margin: auto;
+  }
+  .wwa-img{
+    width: 45%;
+    margin: 110px 0px 110px;
+    display: inline-block;
+  }
+  .wwa-img img{
+    width: 100%;
+  }
+  .wwa-txt{
+    width: 48%;
+    display: inline-block;
+    margin: 150px 0px 120px 60px;
+  }
+.wwa-logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+.wwa-logo{
+    padding-top: 15px;
+}
+.wwa-logo span{
+    margin-left: 7px;
+}
+.who{
+    font-size: 30px;
+    color: #303030;
+}
+.wwa-txt p,.wwa-logo span{
+    color: #686868;
+    font-size: 17px;
+}
+
+.ol{
+    background-color: #f8f8f8;
+    padding: 120px 0px ;
+}  
+.ol-txt{
+    display: inline-block;
+    vertical-align: top;
+    width: 39%;
+    margin: 100px 60px 0px 130px;
+}
+.ol-txt p {
+    font-size: 17px;
+    color:#686868 ;
+}
+.our{
+    font-size: 30px;
+    color: #303030;
+}
+.ol-img{
+    display: inline-block;
+    vertical-align: top;
+    width: 39%;
+}
+.ol-img img {
+    width: 100%;
+}
+
+
+.baking{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px ;
+}
+.baking-txt{
+    text-align: center;
+}
+.baking-txt h2{
+    font-size: 30px;
+    color: #303030;
+}
+.baking-txt p{
+    font-size: 17px;
+    color: #686868;
+}
+.baking-img{
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-right: 16px;
+    margin-left: 16px; 
+    margin-top: 50px;
+}
+.baking-img img{
+    width: 100%;
+}
+.baking-img h3{
+    font-size: 25px;
+    color: #303030;
+}
+.baking-img p{
+    font-size: 17px;
+    color: #686868;
+}
+.clear-fix{
+    clear: both;
+}
+
+
+.contact{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0px;
+}
+.map-txt{
+    float: left;
+    width: 50%;
+}
+.map-txt h3{
+    font-size: 30px;
+    color: #303030;
+}
+.map-txt p{
+    font-size: 17px;
+    color: #686868;
+}
+.map-txt img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    background-color: #8e7754;
+}
+.map-txt span{
+    font-size: 17px;
+    color: #686868;
+    margin-left:7px ;
+}
+.iimg{
+    margin-bottom: 10px;
+}
+.map{
+    float: right;
+    width: 40%;
+    margin-right: 50px;
+}
+
+
+/* .bakery{
+    width: 80%;
+    margin: auto;
+} */
+.top{
+    background-color: #403d38;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.top-sec{
+    width: 20%;
+    float: left;
+    padding-left: 50px;
+}
+.top-sec p{
+    color: #969696;
+}
+.top-sec h4{
+    color: white;
+    font-size: 18px;
+}
+.top-sec img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.top-sec span{
+    font-size: 17px;
+    color: #686868;
+    margin-left:7px ;
+}
+.top-sec-p a{
+    text-decoration: none;
+}
+.iimg{
+    margin-bottom: 10px;
+}
+.bottom{
+    background-color: #353330;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.iim{
+    margin-left: 560px;
+}
+.bottom p{
+    text-align: center;
+    color: #969696;
+}
+.ii{
+    float: left;
+    margin-left: 650px;
+}
+.ii img{
+    width: 50px;
+    border-radius: 50%;
+}
